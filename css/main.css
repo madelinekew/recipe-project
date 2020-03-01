@@ -1,0 +1,34 @@
+/* --- reset default browser styles ---*/
+html {
+  font: 100%/1.15 sans-serif;
+  -webkit-text-size-adjust: 200%;
+  scroll-behavior: smooth;
+}
+
+/* --- responsive images ---*/
+
+img {
+  width: auto;
+  max-width: 60%;
+  height: auto;
+}
+
+figure.hero {
+    max-width: 60rem;
+    margin: 0 auto;
+  }
+
+/*---body/structure---*/
+
+body {
+  font-family: "Copperplate", Fantasy;
+  padding:0 3.5%;
+  padding:1.2rem;
+  margin: 0 auto;
+}
+
+
+
+  body {
+  background-color: lightyellow;
+}
