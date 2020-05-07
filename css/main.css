@@ -8,7 +8,7 @@ html {
 
 img {
   width: auto;
-  max-width: 50%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -73,31 +73,28 @@ nav li {
 
 
 
-.list li {
-  padding top: 5rem
 
-}
 
 /*breakpoint for wider width layout */
 
 @media (min-width: 60em) {
 
-body {
-    font-size:125%;}
+  body {
+      font-size:125%;}
 
-    #ingredients {
-        display:inline-block;
-          width:48%;
-          vertical-align: top;
-    }
+      #ingredients {
+          display:inline-block;
+            width:48%;
+            vertical-align: top;
+      }
 
-    #directions {
-        display:inline-block;
-          width:48%;
-          vertical-align: top;
+      #directions {
+          display:inline-block;
+            width:48%;
+            vertical-align: top;
 
 
-    }
+      }
 
 
       }
@@ -113,4 +110,5 @@ body {
 
 a {
 color: #cc7000;
-} 
+}
+
